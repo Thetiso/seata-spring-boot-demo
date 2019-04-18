@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.springframework.boot.seata.rest.FescarRestTemplateAutoConfiguration,\
+org.springframework.boot.seata.web.FescarHandlerInterceptorConfiguration,\
+org.springframework.boot.seata.GlobalTransactionAutoConfiguration,\
+org.springframework.boot.seata.feign.FescarFeignClientAutoConfiguration,\
+org.springframework.boot.seata.feign.hystrix.FescarHystrixAutoConfiguration
+
